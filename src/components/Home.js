@@ -47,14 +47,6 @@ fetchIngredients();
 const Home = () => {
     return (
         <body>
-            <style>
-                body {
-                    background-image: url('mint-background.jpeg');
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    background-attachment: fixed;
-                }
-            </style>
             <div class="topNav">
                 <h1>Cocktail Comparisons</h1>
                 <img id='logo' src="cocktailIcon.png" height="50px"/>

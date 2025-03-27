@@ -1,5 +1,6 @@
 import React from 'react';
 import "./graphs.css";
+import DrinkStacked from "./drinkStacked";
 
 const Graphs = () => {
     return (
@@ -15,12 +16,13 @@ const Graphs = () => {
             </div>
 
             <div class="graphPage">
-                
-
-                <div id="imageElements">
-                    <h2>Ingredient Graph</h2>
-                    <h1 id="randomCocktailName"></h1>
+                <div class="imageElements">
+                    <div><h2>Ingredient Graph</h2></div>
+                    <div><h1 id="randomCocktailName"></h1></div>
                     <div class="cockImage" id="randomImage"></div>
+                </div>
+                <div style={{ flex: 1, maxWidth: "450px" }}>
+                    <DrinkStacked />
                 </div>
             </div>
             

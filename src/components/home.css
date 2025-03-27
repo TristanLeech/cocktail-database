@@ -22,7 +22,8 @@ h2 {
 }
 
 .topNav {
-    background-color: #696969;
+    /*background-color: #696969;*/
+    background-color: #3e9d249a;
     overflow: hidden;
     height: 60px;
     display: flex;
@@ -79,3 +80,13 @@ h2 {
     align-items: flex-start;
 }
 
+body {
+    background-image: url('assets/mint-background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#logo{
+    filter: brightness(0);
+}

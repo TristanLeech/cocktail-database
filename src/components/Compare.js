@@ -1,5 +1,6 @@
 import React from 'react';
 import "./compare.css";
+import CompareGraph from "./comparison.js";
 
 const Compare = () => {
     return (
@@ -13,6 +14,12 @@ const Compare = () => {
                     <a href="/compare">Compare</a>
                 </div>
             </div>
+            <div class="comparegraphstyle">
+                <div style={{ flex: 1, maxWidth: "1000px" }}>
+                    <CompareGraph />
+                </div>
+            </div>
+            
         </body>
     );
 };
