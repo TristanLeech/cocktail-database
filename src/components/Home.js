@@ -14,7 +14,7 @@ const fetchIngredients = async () => {
         const ingredients = [];
         const measurements = [];
         drinkName.push(data.drinks[0]['strDrink']);
-        ingredientsCopy = ingredients;
+        ingredientsCopy = [...ingredients];
         measurementsCopy = measurements;
 
         for (let i = 1; i <= 15; i++) {
@@ -32,6 +32,8 @@ const fetchIngredients = async () => {
         console.log(measurements);
         document.getElementById("randomCocktailName").innerHTML = drinkName;
         document.getElementById("randomImage").innerHTML = `<img src="${data.drinks[0]['strDrinkThumb']}" height="350px"/>`;
+        document.getElementById("ingredientsList").innerHTML = ingredients.map(ingredient => `<li style="display: list-item;">${ingredient}</li>`).join('');
+        document.getElementById("amountsList").innerHTML = measurements.map(measurement => `<li style="display: block;">${measurement}</li>`).join('');
         return drinkName;
     } catch (error) {
         console.error("Error fetching random cocktail:", error);
@@ -39,11 +41,20 @@ const fetchIngredients = async () => {
     }
 };
 
+console.log("HELLO HELLO HELLO"+ingredientsCopy);
 fetchIngredients();
 
 const Home = () => {
     return (
         <body>
+            <style>
+                body {
+                    background-image: url('mint-background.jpeg');
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                }
+            </style>
             <div class="topNav">
                 <h1>Cocktail Comparisons</h1>
                 <img id='logo' src="cocktailIcon.png" height="50px"/>
@@ -58,26 +69,21 @@ const Home = () => {
                 <h1 id="randomCocktailName"></h1>
                 <div class="cockImage" id="randomImage"></div>
                 <div class="recipe">
-
+                    <div class="bulletList">
                         <h2>Ingredients</h2>
                         <p>
-                            <ul>
-                                {ingredientsCopy.map((ingredient, index) => (
-                                    <li key={index}>{ingredient}</li>
-                                ))}
+                            <ul id="ingredientsList">
+                                
                             </ul>
                         </p>
                         
-
+                    </div>
+                    <div class="bulletList">
                         <h2>Amounts</h2>
-                        <p>
-                            <ul>
-                                {measurementsCopy.map((ingredient, index) => (
-                                    <li key={index}>{ingredient}</li>
-                                ))}
-                            </ul>
-                        </p>
-
+                        <ul id="amountsList">
+                            
+                        </ul>
+                    </div>
 
                     
                 </div>
