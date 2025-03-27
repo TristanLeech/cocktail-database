@@ -1,0 +1,75 @@
+body {
+    background-color: #cad2d4;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+.randomCocktail h1{
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.cockImage img{
+    border-radius: 5%;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+.topNav {
+    background-color: #696969;
+    overflow: hidden;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.topNav a {
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.randomCocktail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.recipe{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: space-between;
+    margin-top: 20px;
+}
+.recipe div{
+    padding: 20px;
+}
+
+.bulletList{
+    padding: 100;
+    display: inline;
+}
+
+.bulletList li{
+    padding: 3px;
+    display: inline;
+}
+
+.bulletList h2{
+    padding: 10px;
+    display: inline;
+}

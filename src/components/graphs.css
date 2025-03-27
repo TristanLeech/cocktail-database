@@ -1,0 +1,12 @@
+.randomCocktail h1{
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.ratioPage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
