@@ -18,7 +18,7 @@ const Graphs = () => {
                 
 
                 <div class="graphCocktail">
-                    <h2>Random Cocktail</h2>
+                    <h2>Ingredient Graph</h2>
                     <h1 id="randomCocktailName"></h1>
                     <div class="cockImage" id="randomImage"></div>
                 </div>
