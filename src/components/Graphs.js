@@ -1,5 +1,5 @@
 import React from 'react';
-import "./home.css";
+import "./graphs.css";
 
 const Graphs = () => {
     return (
@@ -17,7 +17,7 @@ const Graphs = () => {
             <div class="graphPage">
                 
 
-                <div class="graphCocktail">
+                <div id="imageElements">
                     <h2>Ingredient Graph</h2>
                     <h1 id="randomCocktailName"></h1>
                     <div class="cockImage" id="randomImage"></div>
