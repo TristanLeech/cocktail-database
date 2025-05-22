@@ -4,8 +4,6 @@
 This site has been designed to showcase various cocktails making use of an API providing data and images, as well as ChartJs to help make sense of this data.
 
 
-
-
 ## Authors
 
 - [Tristan Leech](https://github.com/TristanLeech)
@@ -124,8 +122,9 @@ www.thecocktaildb.com/images/ingredients/gin.png
 
 ## Acknowledgements
 
+ -  [The Cocktail Database](https://readme.so/editor), for assistance in making this readme file more legible.
  - The Open Window Institute, for provision of education and assistance
-  - Tsungai Katsuro for assisting in contact sessions and teaching coding
+ - Tsungai Katsuro for assisting in contact sessions and teaching coding
  - Student Licenced Adobe [Stock Background](https://stock.adobe.com/za/search?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3A3d%5D=1&filters%5Bfetch_excluded_assets%5D=1&filters%5Binclude_stock_enterprise%5D=1&filters%5Bcontent_type%3Aimage%5D=1&filters%5Borientation%5D=horizontal&k=cocktail+ingredients+wallpaper+white+background&order=relevance&limit=100&search_page=1&search_type=usertyped&acp=&aco=cocktail+ingredients+wallpaper+white+background&get_facets=0&asset_id=1154464576)
  - [readme.so Website](https://readme.so/editor), for assistance in making this readme file more legible.
 
