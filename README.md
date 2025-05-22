@@ -10,6 +10,13 @@ This site has been designed to showcase various cocktails making use of an API p
 
 - [Tristan Leech](https://github.com/TristanLeech)
 
+# How to run locally
+
+To run the site there are two main steps after opening the folder in VSCode:
+
+- Install the required dependencies found under "dependencies" in the package.json file. This can be done by typing the name listed after "npm install "
+- Open the site by typing "npm start" into the integrated terminal
+- If the site opens to a page containing only headings, click one of the navbar links to take you to the pages required.
 
 ## Features
 
