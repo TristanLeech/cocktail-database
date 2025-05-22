@@ -20,4 +20,4 @@ The site contains the following pages.
 
 ## Data Handling
 
-The API gives large quantities of raw data, which needs to be selectively filtered and stored as either strings or arrays. 
+The API gives large quantities of raw data, which needs to be selectively filtered and stored as either strings or arrays. The name and photo embed link are stored directly as strings, but the ingredients and amounts lists are stored as arrays of strings. For the Graphing and Comparison Pages, the amounts array would need to be mapped onto a new integer array by what each string amount would represent, with a default value for unexpected units of measurement.
